@@ -1,0 +1,340 @@
+
+
+                /* (max-width: 600px){ */
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 84%;
+        /* background-color: rgb(230, 215, 215); */
+        margin: 0% auto 2% auto;
+        padding: 1% 0 3% 0;
+        display: block;
+    }
+    .username {
+        /* background-color: rgb(224, 213, 213); */
+        margin: 0% auto 0% 5%;
+        display: block;
+        width: 88%;
+    }
+
+    .password{
+        /* background-color: rgb(224, 213, 213); */
+        margin: 0% auto 0% 5%;
+        display: block;
+        width: 88%;
+    }
+
+    .forgotpassword{
+        margin: 1% 7% auto 0;
+        display: block;
+    }
+    .button{
+        margin: -4% auto auto 4%;
+        width: 80%;
+        display: block;
+    }
+
+    button {
+        padding: 14px 10% 5% 43%;
+    }
+
+    .fa-user {
+        position: absolute;
+        margin: 5.5%;
+    }
+    
+    
+    .fa-unlock-alt {
+        position: absolute;
+        margin: 5.5%;
+    }
+    
+}
+
+
+                /* (min-width: 600px) */
+
+@media only screen and (min-width: 600px){
+    .container{
+        /* background-color: cornsilk; */
+        width: 87%;
+        margin: 0% auto 2% auto;
+        padding: 1% 0 3% 0;
+        display: block;
+    }
+
+    .username {
+        margin: 0% auto 0% 5%;
+        display: block;
+        width: 88%;
+    }
+    
+    .password{
+        margin: 0% auto 0% 5%;
+        display: block;
+        width: 88%;
+    }
+
+    .forgotpassword{
+        margin: 1% 7% auto 0;
+        display: block;
+    }
+    .button{
+        margin: -3% auto auto 4%;
+        width: 83%;
+        display: block;
+    }
+
+    button {
+        padding: 14px 10% 5% 43%;
+    }
+
+    .fa-user {
+        position: absolute;
+        margin: 4%;
+    }
+    
+    
+    .fa-unlock-alt {
+        position: absolute;
+        margin: 4%;
+    }
+}
+
+
+                    /* (min-width: 768px) */
+
+@media only screen and (min-width: 768px){
+    .container{
+        /* background-color: rgb(190, 178, 128); */
+        width: 87%;
+        margin: 0% auto 2% auto;
+        padding: 1% 0 3% 0;
+        display: block;
+    }
+    .button{
+        margin: -3% auto auto 4%;
+        width: 84%;
+        display: block;
+    }
+    .fa-user {
+        position: absolute;
+        margin: 3%;
+    }
+    
+    
+    .fa-unlock-alt {
+        position: absolute;
+        margin: 3%;
+    }
+}
+
+
+                    /* (min-width: 992px) */
+
+@media only screen and (min-width: 992px) {
+
+    .button{
+        margin: -3% auto auto 4%;
+        width: 85%;
+        display: block;
+    }
+    .fa-user {
+        position: absolute;
+        margin: 2.5%;
+    }
+    
+    
+    .fa-unlock-alt {
+        position: absolute;
+        margin: 2.5%;
+    }
+}
+                    /* (min-width: 1200px) */
+
+@media only screen and (min-width: 1200px){
+    body {
+        height: auto;
+        width: auto;
+        background: linear-gradient(to bottom left, #ff00ff 21%, #0099ff 87%);
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        width: 500px;
+        background: white;
+        border-radius: 10px;
+        padding: 2% 6% 2% 6%;
+        margin-left: 24%;
+        margin-top: 1%;
+        justify-content: center;
+        align-items: center;
+    }
+                /* username */
+    h1 {
+        color: black;
+        display: block;
+        text-align: center;
+    }
+    
+                /* username  and  password */
+    .username, .password {
+        position: relative;
+        width: 100%;
+        position: relative;
+        border-bottom: 2px solid #d9d9d9;
+        margin-bottom: 23px;
+    }
+    
+    h4 {
+        padding-left: 7px
+    }
+    
+    .usernamespace, .passwordspace {
+        display: block;
+        width: 100%;
+        height: 55px;
+        background: transparent;
+        padding: 0 7px 0 43px;
+        outline: none;
+        border: none;
+    }
+    
+                    /* forgotpassword */
+    .forgotpassword {
+        padding-bottom: 31px;
+        padding-top: 8px;
+        margin-right: -4%;
+        text-align: right;
+    }
+    
+    .forgotpassword>a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    } 
+    
+    .forgotpassword>a:hover {
+        text-decoration: none;
+        color: #494150;
+        margin: 0px;
+    }
+    
+                    /* button */
+    .button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        border-radius: 25px;
+        background: linear-gradient(to bottom left, #ff00ff 21%, #0099ff 87%);
+        display: flex;
+        padding: 0 20px;
+        width: 92%;
+        height: 50px;
+    }
+    
+    .button:hover{
+        background: linear-gradient(to bottom left, #0066ff 0%, #ff3399 100%);
+        cursor: pointer;
+    }
+    
+    button {
+        outline: none;
+        border: none;
+        background: transparent;
+        color: white;
+        padding: 14px 50% 5% 0%;
+    }
+    
+                    /* Or Sign Up Using */
+    .sighnup1 {
+        color: #666666;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 20px;
+        width: 92%;
+        padding-bottom: 20px;
+        padding-top: 54px;
+        text-align: center;
+    }
+    
+                /* socialmedia */
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .socialmedia1{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .socialmedia1 a{
+        color: #3b5998;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px;
+        text-decoration: none;
+    }
+    
+    .socialmedia1 a:hover{
+        background-color:rgb(31, 28, 28);
+    }
+    
+    .socialmedia1>.facebook {
+        color: white;
+        background-color:#3b5998;
+    }
+    
+    .socialmedia1>.twitter {
+        color: white;
+        background-color:#0099ff;
+        
+    }
+    
+    .socialmedia1>.google {
+        color: white;
+        background-color:#da2130;
+    }
+    
+                    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 155px;
+    }
+    
+    .sighnup2 {
+        color: #666666;
+        padding-bottom: 17px;
+    }
+    
+    .sighnup3 {
+        color: #333333;
+        text-decoration: none;
+    }
+    
+    .fa-user {
+        color:#666666 ;
+        position: absolute;
+        margin: 4%;
+    }
+    
+    
+    .fa-unlock-alt {
+        color:#666666 ;
+        position: absolute;
+        margin: 4%;
+    }
+    
+    
+}
